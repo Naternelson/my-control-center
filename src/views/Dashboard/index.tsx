@@ -1,8 +1,10 @@
+import LevelNavbar from "../../components/LevelNavbar";
 
 export default function () {
     return (
         <div>
-            Hello Mother
+            <LevelNavbar/>
+            hi there 
         </div>
     );
 }

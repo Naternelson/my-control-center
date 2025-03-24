@@ -3,7 +3,7 @@ import Layout from "../../style/layout";
 
 export default function () {
     return (
-        <Layout>
+        <div>
             <Container
                 sx={{
                     margin: "auto",
@@ -93,6 +93,6 @@ export default function () {
                     </Button>
                 </Box>
             </Container>
-        </Layout>
+        </div>
     );
 }

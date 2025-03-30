@@ -55,4 +55,13 @@ export const defaultTheme = createTheme({
         caption: { fontSize: "0.6875rem" }, // ~11px
         button: { fontSize: "0.75rem", fontWeight: 500, textTransform: "none" },
     },
+    components: {
+        MuiSvgIcon: {
+            styleOverrides: {
+                root: {
+                    fontSize: "1rem", // Reduce from default (~24px) to 16px
+                },
+            },
+        },
+    },
 });
